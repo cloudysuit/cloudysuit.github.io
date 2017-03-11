@@ -84,10 +84,7 @@ a {
 
 }
 
-/*ul {
-		position: relative;
-		
-}*/
+
 
 li {
 		font-size: 20px
@@ -151,8 +148,10 @@ a.red:hover {
 
 .contactBox {
 				width: 270px;
+				height: 140px;
 				float: right;
 				background-color: #fff;
+				position: relative;
 			
 
 }
@@ -176,11 +175,31 @@ a.red:hover {
 				width: 50px;
 				height: 50px;
 				margin: 5%;
-				position: relative;
+				position: absolute;
 				left: 16px;
 				bottom: 3px;
 }
 
+#linkedIn,
+#stackOverflow,
+#gitHub {
+			position: absolute;
+}
+
+#gitHub {
+			left: 15px;
+			top: 58px;
+}
+
+#linkedIn {
+			left: 97px;
+			top: 57px;
+}
+
+#stackOverflow {
+					left: 179px;
+					top: 56px;
+}
 
 .copyrightBar { clear: both;
 				text-align: center;
